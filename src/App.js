@@ -18,6 +18,7 @@ function App() {
       <section>
         {cards}
       </section>
+      <Weather />
     </>
   );
 }
