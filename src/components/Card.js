@@ -16,20 +16,12 @@ export default function Card (props) {
     }, [])
 
     return (
-        <section className='card'>
-import React from 'react'
-
-export default function Card (props) {
-    return (
         <section>
             <div className='info'>
                 <div className="location">
                     <p>{props.data.location}</p>
                     <a href={props.data.googleMapsUrl} target="_blank">View on Google Maps</a>
-<<<<<<< HEAD
-                    <p>Feels like {weatherData.temp_f}</p>
-=======
->>>>>>> 48fa3bf9a815953faeb343423e454940b5d8a8fd
+                    <p>Feels like {weatherData.temp_c}</p>
                 </div>
                 <h1 className='title'>{props.data.title}</h1>
                 <p className='dates'>{props.data.startDate} - {props.data.endDate}</p>  
@@ -37,8 +29,6 @@ export default function Card (props) {
             </div>
             <div>
                 <img src={props.data.imageURL} alt="travel" className='image'/>
-            <div className='image'>
-                <img src={props.data.imageUrl} alt="travel" />
             </div>
         </section>
     )
