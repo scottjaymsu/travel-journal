@@ -11,7 +11,7 @@ export default [
         endDate: "8 May, 2021",
         description: "Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain range.",
         imageUrl: {PERU},
-        city: "Machu Picchu"
+        city: "machupicchu"
     },
 
     {
@@ -22,7 +22,7 @@ export default [
         endDate: "16 Mar, 2022",
         description: "One of the Northeast's best-known historical cities, Boston is the most populous city in New England and one of the best places to live on the East Coast. This cultural hub offers endless entertainment, convenient transportation, and excellent outdoor recreation.",
         imageUrl: {BOSTON},
-        city: "Boston"
+        city: "boston"
     },
 
     {
@@ -33,6 +33,6 @@ export default [
         endDate: "14 Aug, 2022",
         description: "Pilot Mountain is a town in Surry County, North Carolina, United States. The population was 1,443 at the 2020 census. It is named for the nearby landmark of Pilot Mountain, a distinctive geological formation.",
         imageUrl: {PILOT},
-        city: "Pilot Mountain"
+        city: "27041"
     }
 ]
