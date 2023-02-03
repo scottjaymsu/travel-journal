@@ -4,14 +4,16 @@
 
 body {
     margin: 0;
+    font-family: 'Inter'
 }
 
-.title {
+.header {
     display:flex;
     background-color: #F55A5A;
     color: white;
     font-size: 15px;
-    padding:5px;
+    padding: 15px;
+    margin-bottom: 75px;
     flex-direction: row-reverse;
     justify-content: center;
 }
@@ -21,4 +23,43 @@ body {
     height: 30px;
     align-self: center;
     margin-right: 5px;  
+}
+
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+.location > p {
+    letter-spacing: 0.1em;
+}
+
+.location > a {
+    margin-left: 15px;
+    color: #918E9B;
+}
+
+.image {
+    width: 220px;   
+    height: 300px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.title {
+    font-size: 50px;
+    margin: 0;
+}
+
+.dates {
+    font-size: 20px;
+    font-weight: 700;
 }
